@@ -1,0 +1,25 @@
+h1{
+    border: blue 2px solid;
+}
+
+
+
+header {
+    border: red 2px solid;
+    text-align: center;
+    color: white;
+    background-color: #10aca1;
+    height: 100px;
+}
+
+nav {
+    border: blueviolet 2px solid;
+}
+
+main {
+    border: yellow 2px solid;
+}
+
+footer {
+    border: orangered 2px solid;
+}
