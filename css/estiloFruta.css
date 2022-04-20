@@ -2,7 +2,9 @@ h1{
     border: blue 2px solid;
 }
 
-
+div {
+    border: orange 2px solid;
+}
 
 header {
     border: red 2px solid;
