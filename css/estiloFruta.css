@@ -2,6 +2,8 @@ h1{
     border: blue 2px solid;
 }
 
+
+
 div {
     border: lightpink 2px solid;
 }
@@ -10,7 +12,7 @@ img {
     
 }
 
-header {
+#titulo {
     border: red 2px solid;
     text-align: center;
     color: white;
@@ -18,14 +20,64 @@ header {
     height: 100px;
 }
 
-nav {
+.nav {
     border: blueviolet 2px solid;
+    background-color: rgb(252, 248, 118);
+    text-decoration: none;
+    padding: 5px;
 }
+
+.articulos{
+    background-color: rgb(32, 125, 255);
+}
+
 
 main {
     border: black 2px solid;
 }
 
-footer {
+.footerfin {
     border: orangered 2px solid;
+    background-color: #10aca1;
+    text-align: center;
 }
+
+/*Paletas de colores para FrutaStore:
+color imagen fruta #10aca1
+
+
+#1
+rgb(252, 248, 118)
+rgb(206, 227, 151)
+rgb(139, 205, 205)
+rgb(55, 151, 164)
+
+#2
+rgb(251, 244, 109)
+rgb(180, 254, 152)
+rgb(119, 228, 212)
+rgb(153, 140, 235)
+
+#3
+rgb(12, 236, 221)
+rgb(255, 243, 56)
+rgb(255, 103, 231)
+rgb(196, 0, 255)
+
+#4
+rgb(46, 193, 172)
+rgb(62, 151, 139)
+rgb(210, 230, 3)
+rgb(239, 244, 142)
+
+#5
+rgb(247, 255, 86)
+rgb(148, 252, 19)
+rgb(75, 227, 172)
+rgb(3, 45, 60)
+
+#6
+rgb(249, 253, 80)
+rgb(133, 239, 71)
+rgb(0, 189, 86)
+rgb(32, 125, 255)*/
