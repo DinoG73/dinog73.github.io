@@ -5,6 +5,9 @@ h1{
 div {
     border: lightpink 2px solid;
 }
+img {
+    width:100%;
+}
 
 header {
     border: red 2px solid;
