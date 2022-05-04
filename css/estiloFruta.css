@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(166, 121, 210);
+}
+
 h1{
     border: blue 2px solid;
 }
