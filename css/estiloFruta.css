@@ -10,10 +10,11 @@ h1{
 
 div {
     border: lightpink 2px solid;
+    
 }
 img {
     width:100%;
-    
+    height: 600px;
 }
 
 #titulo {
