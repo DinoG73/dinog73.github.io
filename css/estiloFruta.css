@@ -1,20 +1,10 @@
 body {
+    border: yellowgreen 5px solid;
     background-color: rgb(166, 121, 210);
 }
 
 h1{
     border: blue 2px solid;
-}
-
-
-
-div {
-    border: lightpink 2px solid;
-    
-}
-img {
-    width:100%;
-    height: 600px;
 }
 
 #titulo {
@@ -23,6 +13,7 @@ img {
     color: white;
     background-color: #10aca1;
     height: 100px;
+    width:100%;
 }
 
 .nav {
@@ -32,13 +23,23 @@ img {
     padding: 5px;
 }
 
-.articulos{
-    background-color: rgb(32, 125, 255);
+main {
+    border: black 2px solid;
+}
+
+div {
+    border: lightpink 2px solid;
+    
+}
+img {
+    width:100%;
+    height: 600px;
+    border: rosybrown 5px solid;
 }
 
 
-main {
-    border: black 2px solid;
+.articulos{
+    background-color: rgb(32, 125, 255);
 }
 
 .footerfin {
