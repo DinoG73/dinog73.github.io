@@ -10,7 +10,7 @@ body {
 }
 
 header #top {
-    color: ;
+    
     text-align: center;
     
 
@@ -66,7 +66,7 @@ main {
 }
 
 .footerfin {
-    border: orangered 2px solid;
+    border: blue 2px solid;
     background-color: #10aca1;
     text-align: center;
 }
