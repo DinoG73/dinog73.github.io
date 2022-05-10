@@ -11,13 +11,15 @@ body {
 
 header #top {
     
-    text-align: center;
+    /* text-align: center; */
     
 
 }
 
 header {
     border: red 2px solid;
+    height: 5vw;
+    
 }
 
 .nav {
@@ -25,16 +27,24 @@ header {
     background-color: rgb(252, 248, 118);
     text-decoration: none;
     text-align: center;
-    padding: 5px;
-    color: black;
+    
+    margin:10px
+    
+    
+    
+    
 }
 nav {
     text-align: center;
+    height: 5vw;
 }
 
+div {
+    border: blue 4px solid;
+}
 
 h1{
-    /* border: blue 4px solid; */
+    /*  */
     text-align: center;
 }
 
@@ -46,23 +56,6 @@ h2 {
 
 main {
     border: black 2px solid;
-}
-
-
-
-.responsive {
-
-  }
-
-/*img {
-    width:100%;
-    height: 600px;
-    border: rosybrown 5px solid;
-}*/
-
-
-.articulos{
-
 }
 
 .footerfin {
