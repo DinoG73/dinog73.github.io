@@ -1,45 +1,68 @@
+* {
+    margin: 0px;
+    padding:0px;
+    font-family:'Courier New', Courier, monospace;
+}
+
 body {
-    border: yellowgreen 5px solid;
+    /* border: yellowgreen 5px solid; */
     background-color: rgb(166, 121, 210);
 }
 
-h1{
-    border: blue 2px solid;
+header #top {
+    color: ;
+    text-align: center;
+    
+
 }
 
-#titulo {
+header {
     border: red 2px solid;
-    text-align: center;
-    color: white;
-    background-color: #10aca1;
-    height: 100px;
-    width:100%;
 }
 
 .nav {
-    border: blueviolet 2px solid;
+    border: lightcoral 2px solid;
     background-color: rgb(252, 248, 118);
     text-decoration: none;
+    text-align: center;
     padding: 5px;
+    color: black;
 }
+nav {
+    text-align: center;
+}
+
+
+h1{
+    /* border: blue 4px solid; */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
 
 main {
     border: black 2px solid;
 }
 
-div {
-    border: lightpink 2px solid;
-    
-}
-img {
+
+
+.responsive {
+
+  }
+
+/*img {
     width:100%;
     height: 600px;
     border: rosybrown 5px solid;
-}
+}*/
 
 
 .articulos{
-    background-color: rgb(32, 125, 255);
+
 }
 
 .footerfin {
