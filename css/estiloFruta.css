@@ -1,61 +1,75 @@
 * {
     margin: 0px;
     padding:0px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Fredoka One', cursive;
 }
 
 body {
     /* border: yellowgreen 5px solid; */
+    width: 100%;
+    margin :0px;
     background-color: rgb(166, 121, 210);
 }
 
-header #top {
-    
-    /* text-align: center; */
-    
-
-}
-
-header {
-    border: red 2px solid;
+#top {
+    border: rgb(55, 221, 21) 3px solid;
     height: 5vw;
-    
-}
+ }
 
+#topnav {
+    border: lightcoral 3px solid;
+    text-align: center;
+    height: 2vw;
+    background-color: #10aca1;
+    height: 2.3vw;
+}
+ 
 .nav {
-    border: lightcoral 2px solid;
     background-color: rgb(252, 248, 118);
     text-decoration: none;
     text-align: center;
-    
-    margin:10px
-    
-    
-    
-    
-}
-nav {
-    text-align: center;
-    height: 5vw;
+    border-radius: 8%;
 }
 
 div {
     border: blue 4px solid;
+    margin: 5px;
+    
 }
 
 h1{
-    /*  */
+   
     text-align: center;
 }
 
 h2 {
+    border: yellowgreen 2px solid;
     text-align: center;
+    font-size: 2.5em;
 }
 
+img {
+    ;
+}
 
+.responsive {
+    width: 100%;
+    height: auto;
+
+}
 
 main {
     border: black 2px solid;
+}
+
+ul li {
+    padding-left: 40px;
+
+}
+
+#nuestrasMarcas {
+    border: pink 2px solid;
+
 }
 
 .footerfin {
