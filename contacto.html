@@ -1,75 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <title>FrutaStore</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esto es Fruta Store">
-    <meta name="keywords" content=" fruta, frutastore, moda, fashion, estilo">
-    <link rel="icon" href="img/favicomatic/favicon-32x32.png" type="image/png">
-    <link rel="stylesheet" href="css/estiloFruta.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/b141eaad19.js" crossorigin="anonymous"></script>
-                                                                   
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Esto es Fruta Store">
+        <meta name="keywords" content=" fruta, frutastore, moda, fashion, estilo">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="icon" href="img/favicomatic/favicon-32x32.png" type="image/png">
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Maven+Pro:wght@900&family=Prompt:wght@800&family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estiloFruta.css">
+        <script src="https://kit.fontawesome.com/b141eaad19.js" crossorigin="anonymous"></script>
+    
+        <title>FrutaStore</title>
+    </head>
 <body>
-    <header id="top">
-        <h1>Proximamente Fruta Store</h1>
-        <nav id="topnav">
-            <a class="nav" href="index.html">Home</a> |
-            <a class="nav" href="store.html">Store</a> |
-            <a class="nav" href="eventos.html">Eventos</a> |
-            <a class="nav" href="contacto.html">Contacto</a>
-        </nav>           
+    <header class="topheader">
+        <div class="topdivheader">
+            <img class="logo" src="img/logoModificado.png">
+        </div>
+        <h1 hidden>Fruta Store</h1>
+        <nav class="topnavbar">
+            <a class="menu" href="index.html">Home</a>
+            <a class="menu" href="store.html">Store</a>
+            <a class="menu" href="eventos.html">Eventos</a>
+            <a class="menu" href="contacto.html" class="derecha">Contacto</a>
+        </nav>
     </header>
     <br>
     <main>
-        
-        <section id="noticiaslocales">
-            <form name="formulario" method="get" action="show_data.html" target="_blank">
-                <label for="firstname">Nombre: </label> <input type="text" name="firstname" placeholder="Ingrese su nombre aquí..."><br><br>
-	            <label for="lastname">Apellido: </label> <input type="text" name="lastname" placeholder="Ingrese su apellido aquí..."><br><br>
-	            <label for="street">Dirección: </label> <input type="text" name="street" placeholder="Ingrese su direccion aquí..."><br><br>
-	            <label for="city">Ciudad: </label> <input type="text" name="city" placeholder="Ingrese su ciudad aquí..."><br><br>
-	            <label for="zipcode">Código Postal: </label> <input type="text" name="zipcode" placeholder="Ingrese su código postal aquí..."><br><br>
-	            <label for="BirthDate">Fecha de nacimiento (mm/dd/yyyy): </label> <input type="text" name="birthdate"><br><br>
-
-                <p>Como nos conociste
+       
+        <div class="fila">
+            <div class="columna2">
+                <div class="bg-clip">
+                    <h1 class="animate__animated animate__zoomInDown">SUCURSALES</h1>
+                </div>
+                
+                <div class=""><p>Hace click Acá</p><a class="sucursal" href="https://g.page/frutastore?share" target="_blank">Fruta</a></div>
+                <div class=""><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14488.551479059006!2d-65.41635365136871!3d-24.790732140776786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3bc541a2859%3A0x29ff84a3aad89a43!2sFruta%20Store!5e0!3m2!1ses-419!2sar!4v1650456230114!5m2!1ses-419!2sar" width="600" height="400" style="border-radius:15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+            <div class="columna2">
+              
+              <form name="formulario" method="get" action="show_data.html" target="_blank">
+                <label class="datos" for="firstname">Nombre: </label> <input class="entrada" type="text" name="firstname" placeholder="Ingrese su nombre aquí..."><br><br>
+                <label class="datos" for="lastname">Apellido: </label> <input class="entrada" type="text" name="lastname" placeholder="Ingrese su apellido aquí..."><br><br>
+                <label class="datos" for="street">Dirección: </label> <input class="entrada" type="text" name="street" placeholder="Ingrese su direccion aquí..."><br><br>
+                <label class="datos" for="city">Ciudad: </label> <input class="entrada" type="text" name="city" placeholder="Ingrese su ciudad aquí..."><br><br>
+                <label class="datos" for="zipcode">Código Postal: </label> <input class="entrada" type="text" name="zipcode" placeholder="Ingrese su código postal aquí..."><br><br>
+               
+                <p><h3 class="bg-clip animate__animated animate__zoomInDown">Como nos conociste</h3>
                     <input type="checkbox" name="fuente" value="internet"> Internet
                     <input type="checkbox" name="fuente" value="redessociales"> Redes Sociales
                     <input type="checkbox" name="fuente" value="television"> Televisión
                     <input type="checkbox" name="fuente" value="conocidos"> Conocidos
                     <input type="checkbox" name="fuente" value="otro"> Otro
                 </p>
-                    <p>Dejanos un comentario:</p>
-                <textarea cols="50" rows="10" name="observaciones"></textarea>
-                <br><br>
+                
                 <input value="Ingresar" name="enviar" type="submit">
                 <br><br>
                 <input value="Borrar" name="enviar" type="reset">
                 <br><br>
             </form>
-        </section>
-        <section>
-            <h3>Sucursales</h3>
+              
+            </div>
             
-            <div class=""><a href="https://goo.gl/maps/Wavc8DXCpyyhSs8s8">Fruta</a></div>
-            <div class="">to3</div>
-            <div class="">to4</div>
-            <div class="">to5</div>
-            <div class="">to6</div>
-        </section>
-        <aside>
-            <p>Notas del articulo N°1</p>
-            <p>Notas del articulo N°2</p>
-        </aside>
+            
+          </div>
+        
     </main>
     <footer class="footerfin">
         <address>Salta, Argentina</address>
         <p>DinoG &copy; Derechos Reservados 2022</p>
+
         
-        <!-- <i class="fa-brands fa-instagram-square"></i> -->
         <!--LINK HACIA CUENTA DE INSTAGRAM-->
         <a href="https://www.instagram.com/frutastore/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <br>
@@ -78,7 +82,7 @@
         <br>
         <a href="mailto:bagiorgini@gmail.com"><i class="fa-solid fa-envelope"></i>fruta@gmail.com</a>
         <br>
-        
+        <!-- FIN DEL FOOTER PRINCIPAL -->
     </footer>
 </body>
 </html>
